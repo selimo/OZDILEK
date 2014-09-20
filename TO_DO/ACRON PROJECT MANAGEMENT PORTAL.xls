@@ -1,0 +1,2336 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<title>ACRON PROJECT MANAGEMENT PORTAL</title>
+<style type="text/css">
+table {
+    mso-displayed-decimal-separator:"\,";
+    mso-displayed-thousand-separator:"\.";
+}
+body
+{
+    margin: 0px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color:black;
+}
+
+</style>
+<META HTTP-EQUIV="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8">
+<!-- JRA-7598 - ensure fields (e.g. description) occupy only one cell - even fields containing newlines. -->
+<!--
+Vertical align all cells to the top, in order to align all issue rows of issuetable to the top,
+since Excel does not use or save the css files it is hardcoded here.
+-->
+<style>
+@page
+{
+mso-page-orientation:landscape;
+margin:.25in .25in .5in .25in;
+mso-header-margin:.5in;
+mso-footer-margin:.25in;
+mso-footer-data:"&R&P of &N";
+mso-horizontal-page-align:center;
+mso-vertical-page-align:center;
+}
+
+br
+{
+    mso-data-placement:same-cell;
+}
+
+td
+{
+    vertical-align: top;
+}
+</style>
+
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>general_report</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+<body>
+
+<table border="1">
+    <tr bgcolor="#ffffff" height="29">
+        <td colspan="10">
+            <img src="http://jira.acron.com.tr/jira-logo-scaled.png" width="125" height="29" border="0" alt="ACRON PROJECT MANAGEMENT PORTAL">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="10">
+            <a href="http://jira.acron.com.tr/secure/IssueNavigator.jspa?reset=true&jqlQuery=project+%3D+OEP+AND+issuetype+%3D+FS-Spekt+AND+component+in+%28%22SAP+CO%22%2C+%22SAP+FI%22%2C+%22SAP+PM%22%2C+%22SAP+PP%22%2C+%22SAP+QM%22%29+AND+%22Geli%C5%9Ftirme+Durumu%22+in+%28Beklemede%2C+%22N%2FA%22%29">ACRON PROJECT MANAGEMENT PORTAL</a>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="10">
+            20/Eyl/14 6:30 PM'de 104 talep gösteriliyor.
+        </td>
+    </tr>
+</table>
+
+
+
+
+                                        <table id="issuetable"  border="1" cellpadding="3" cellspacing="1" width="100%">
+                        <thead>
+        <tr class="rowHeader">
+            
+                                                            <th class="colHeaderLink headerrow-labels">
+                            Labels
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-issuekey">
+                            Anahtar
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-assignee">
+                            Atanan Kişi
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-components">
+                            Bileşen/ler
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-status">
+                            Durum
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-priority">
+                            Öncelik
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-resolutiondate">
+                            Resolved
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-timespent">
+                            Geçen Süre
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-description">
+                            Tanım
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-issuelinks">
+                            Linked Issues
+                                                    </th>
+                                                                    </tr>
+    </thead>
+    <tbody>
+                                    <tr id="issuerow31047" rel="31047" data-issuekey="OEP-3909" class="issuerow">
+                                            <td class="nav labels">    RE07</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3909" href="http://jira.acron.com.tr/browse/OEP-3909">OEP-3909</a>
+</td>
+                                            <td class="nav assignee">            Güney Tüzün
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Ana Veri Kontrol &amp; Ek Alanlar
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3910                        </td>
+                    </tr>
+                <tr id="issuerow31045" rel="31045" data-issuekey="OEP-3907" class="issuerow">
+                                            <td class="nav labels">    RE06</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3907" href="http://jira.acron.com.tr/browse/OEP-3907">OEP-3907</a>
+</td>
+                                            <td class="nav assignee">            Güney Tüzün
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Satış ciro rakamlarının sisteme yüklenmesi excel upload programı
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3908                        </td>
+                    </tr>
+                <tr id="issuerow31043" rel="31043" data-issuekey="OEP-3905" class="issuerow">
+                                            <td class="nav labels">    RE05</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3905" href="http://jira.acron.com.tr/browse/OEP-3905">OEP-3905</a>
+</td>
+                                            <td class="nav assignee">            Güney Tüzün
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Satış ciro rakamlarının sisteme yüklenmesi excel upload programı
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3906                        </td>
+                    </tr>
+                <tr id="issuerow31041" rel="31041" data-issuekey="OEP-3903" class="issuerow">
+                                            <td class="nav labels">    RE04</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3903" href="http://jira.acron.com.tr/browse/OEP-3903">OEP-3903</a>
+</td>
+                                            <td class="nav assignee">            Güney Tüzün
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Satış ciro rakamlarının sisteme yüklenmesi excel upload programı
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3904                        </td>
+                    </tr>
+                <tr id="issuerow31039" rel="31039" data-issuekey="OEP-3901" class="issuerow">
+                                            <td class="nav labels">    RE03</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3901" href="http://jira.acron.com.tr/browse/OEP-3901">OEP-3901</a>
+</td>
+                                            <td class="nav assignee">            Güney Tüzün
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Satış ciro rakamlarının sisteme yüklenmesi excel upload programı
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3902                        </td>
+                    </tr>
+                <tr id="issuerow31037" rel="31037" data-issuekey="OEP-3899" class="issuerow">
+                                            <td class="nav labels">    RE02</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3899" href="http://jira.acron.com.tr/browse/OEP-3899">OEP-3899</a>
+</td>
+                                            <td class="nav assignee">            Güney Tüzün
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Özdilek yapısına uygun onay yapısı kurulması
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3900                        </td>
+                    </tr>
+                <tr id="issuerow31035" rel="31035" data-issuekey="OEP-3897" class="issuerow">
+                                            <td class="nav labels">    RE01</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3897" href="http://jira.acron.com.tr/browse/OEP-3897">OEP-3897</a>
+</td>
+                                            <td class="nav assignee">            Güney Tüzün
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Ortak Giderlerin Yüklenmesi ve Sayaçların aktarımı Excel Upload Programı
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3898                        </td>
+                    </tr>
+                <tr id="issuerow31010" rel="31010" data-issuekey="OEP-3875" class="issuerow">
+                                            <td class="nav labels">    </td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3875" href="http://jira.acron.com.tr/browse/OEP-3875">OEP-3875</a>
+</td>
+                                            <td class="nav assignee">            Hafize Tekbaş
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="Done" title="Done"> Done
+</td>
+                                            <td class="nav priority">   Major
+</td>
+                                            <td class="nav resolutiondate"> 18/Eyl/14 5:32 PM </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      FI.01 .01.G1.D-Amortisman Çalışması 7&#39;li Hesap Çoklaması
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3876                        </td>
+                    </tr>
+                <tr id="issuerow30735" rel="30735" data-issuekey="OEP-3822" class="issuerow">
+                                            <td class="nav labels">    CO02</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3822" href="http://jira.acron.com.tr/browse/OEP-3822">OEP-3822</a>
+</td>
+                                            <td class="nav assignee">            Uğur Ötken
+    </td>
+                                            <td class="nav components">                        SAP CO            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Minor
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Üretim siparişleri için yeniden değerlenmiş bakiye raporu
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3823                        </td>
+                    </tr>
+                <tr id="issuerow30731" rel="30731" data-issuekey="OEP-3821" class="issuerow">
+                                            <td class="nav labels">    PP66</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3821" href="http://jira.acron.com.tr/browse/OEP-3821">OEP-3821</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Dokuma günlük tezgah üretim raporu
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3838                        </td>
+                    </tr>
+                <tr id="issuerow30730" rel="30730" data-issuekey="OEP-3820" class="issuerow">
+                                            <td class="nav labels">    PP65</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3820" href="http://jira.acron.com.tr/browse/OEP-3820">OEP-3820</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Minor
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Depo son durum raporu
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3837                        </td>
+                    </tr>
+                <tr id="issuerow30729" rel="30729" data-issuekey="OEP-3819" class="issuerow">
+                                            <td class="nav labels">    PP64</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3819" href="http://jira.acron.com.tr/browse/OEP-3819">OEP-3819</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Üretimden iade giriş fişi
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3836                        </td>
+                    </tr>
+                <tr id="issuerow30728" rel="30728" data-issuekey="OEP-3818" class="issuerow">
+                                            <td class="nav labels">    PP63</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3818" href="http://jira.acron.com.tr/browse/OEP-3818">OEP-3818</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Major
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Normal alınan sipariş fişi
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3835                        </td>
+                    </tr>
+                <tr id="issuerow30727" rel="30727" data-issuekey="OEP-3817" class="issuerow">
+                                            <td class="nav labels">    PP61</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3817" href="http://jira.acron.com.tr/browse/OEP-3817">OEP-3817</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Tarih&#39;e Göre Üretim Raporu(konpak)
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3834                        </td>
+                    </tr>
+                <tr id="issuerow30726" rel="30726" data-issuekey="OEP-3816" class="issuerow">
+                                            <td class="nav labels">    PP60</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3816" href="http://jira.acron.com.tr/browse/OEP-3816">OEP-3816</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Sipariş Bazında Üretim Raporu(Konpak)
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3845                        </td>
+                    </tr>
+                <tr id="issuerow30725" rel="30725" data-issuekey="OEP-3815" class="issuerow">
+                                            <td class="nav labels">    PP59</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3815" href="http://jira.acron.com.tr/browse/OEP-3815">OEP-3815</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Duruş Raporu
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3846                        </td>
+                    </tr>
+                <tr id="issuerow30724" rel="30724" data-issuekey="OEP-3814" class="issuerow">
+                                            <td class="nav labels">    PP58</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3814" href="http://jira.acron.com.tr/browse/OEP-3814">OEP-3814</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Major
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Bobin Boya Program Numarasına Göre Günlük Üretim Raporu
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3847                        </td>
+                    </tr>
+                <tr id="issuerow30723" rel="30723" data-issuekey="OEP-3813" class="issuerow">
+                                            <td class="nav labels">    PP57</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3813" href="http://jira.acron.com.tr/browse/OEP-3813">OEP-3813</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Dokuma Sipariş ve İş Emri Bazında Üretim Özet Raporu
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3848                        </td>
+                    </tr>
+                <tr id="issuerow30722" rel="30722" data-issuekey="OEP-3812" class="issuerow">
+                                            <td class="nav labels">    PP56</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3812" href="http://jira.acron.com.tr/browse/OEP-3812">OEP-3812</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Major
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      SiparişBazında Ortalama Dişli Raporu
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3849                        </td>
+                    </tr>
+                <tr id="issuerow30721" rel="30721" data-issuekey="OEP-3811" class="issuerow">
+                                            <td class="nav labels">    PP55</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3811" href="http://jira.acron.com.tr/browse/OEP-3811">OEP-3811</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Tezgah Üzeri Çözgü Miktarları
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3850                        </td>
+                    </tr>
+                <tr id="issuerow30720" rel="30720" data-issuekey="OEP-3810" class="issuerow">
+                                            <td class="nav labels">    PP54</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3810" href="http://jira.acron.com.tr/browse/OEP-3810">OEP-3810</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Tarih Bazında Depo Barkod Durumu
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3851                        </td>
+                    </tr>
+                <tr id="issuerow30719" rel="30719" data-issuekey="OEP-3809" class="issuerow">
+                                            <td class="nav labels">    PP53</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3809" href="http://jira.acron.com.tr/browse/OEP-3809">OEP-3809</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Sipariş Üretim Raporu
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3852                        </td>
+                    </tr>
+                <tr id="issuerow30718" rel="30718" data-issuekey="OEP-3808" class="issuerow">
+                                            <td class="nav labels">    PP52</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3808" href="http://jira.acron.com.tr/browse/OEP-3808">OEP-3808</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Major
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Planlama Dokumacı Prim Raporu
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3853                        </td>
+                    </tr>
+                <tr id="issuerow30717" rel="30717" data-issuekey="OEP-3807" class="issuerow">
+                                            <td class="nav labels">    PP51</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3807" href="http://jira.acron.com.tr/browse/OEP-3807">OEP-3807</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Major
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Planlama Çözgü Bağlama Prim Raporu (Detay)
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3854                        </td>
+                    </tr>
+                <tr id="issuerow30716" rel="30716" data-issuekey="OEP-3806" class="issuerow">
+                                            <td class="nav labels">    PP50</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3806" href="http://jira.acron.com.tr/browse/OEP-3806">OEP-3806</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Major
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Planlama Çözgü Bağlama Prim Raporu
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3855                        </td>
+                    </tr>
+                <tr id="issuerow30715" rel="30715" data-issuekey="OEP-3805" class="issuerow">
+                                            <td class="nav labels">    PP49</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3805" href="http://jira.acron.com.tr/browse/OEP-3805">OEP-3805</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Major
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Dokuma Tezgah Altı Depo Raporu
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3856                        </td>
+                    </tr>
+                <tr id="issuerow30714" rel="30714" data-issuekey="OEP-3804" class="issuerow">
+                                            <td class="nav labels">    PP48</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3804" href="http://jira.acron.com.tr/browse/OEP-3804">OEP-3804</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Dokuma Tezgah Üretim Raporu
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3857                        </td>
+                    </tr>
+                <tr id="issuerow30713" rel="30713" data-issuekey="OEP-3803" class="issuerow">
+                                            <td class="nav labels">    PP45</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3803" href="http://jira.acron.com.tr/browse/OEP-3803">OEP-3803</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Minor
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      İplik Teslim Etme Formu
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3858                        </td>
+                    </tr>
+                <tr id="issuerow30712" rel="30712" data-issuekey="OEP-3802" class="issuerow">
+                                            <td class="nav labels">    PP40</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3802" href="http://jira.acron.com.tr/browse/OEP-3802">OEP-3802</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Minor
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Konfeksiyon Nakış Üretim Randıman Raporu
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3859                        </td>
+                    </tr>
+                <tr id="issuerow30711" rel="30711" data-issuekey="OEP-3801" class="issuerow">
+                                            <td class="nav labels">    PP38</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3801" href="http://jira.acron.com.tr/browse/OEP-3801">OEP-3801</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Minor
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Konfeksiyon Genel Üretim ve Depo Miktarları Raporu
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3860                        </td>
+                    </tr>
+                <tr id="issuerow30710" rel="30710" data-issuekey="OEP-3800" class="issuerow">
+                                            <td class="nav labels">    PP37</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3800" href="http://jira.acron.com.tr/browse/OEP-3800">OEP-3800</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Minor
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Konfeksiyon Üretim Raporu (Detay)
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3861                        </td>
+                    </tr>
+                <tr id="issuerow30709" rel="30709" data-issuekey="OEP-3799" class="issuerow">
+                                            <td class="nav labels">    PP71</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3799" href="http://jira.acron.com.tr/browse/OEP-3799">OEP-3799</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Konfeksiyon Bölümünde Havlu ve Nakış Üretim Girişleri Ekranı
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3843                        </td>
+                    </tr>
+                <tr id="issuerow30708" rel="30708" data-issuekey="OEP-3798" class="issuerow">
+                                            <td class="nav labels">    PP70</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3798" href="http://jira.acron.com.tr/browse/OEP-3798">OEP-3798</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Atkı iplikleri + depo transfer + virman ekranı
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3839                        </td>
+                    </tr>
+                <tr id="issuerow30707" rel="30707" data-issuekey="OEP-3797" class="issuerow">
+                                            <td class="nav labels">    PP33</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3797" href="http://jira.acron.com.tr/browse/OEP-3797">OEP-3797</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Üretim siparişi parti türetme geliştirmesi
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3862                        </td>
+                    </tr>
+                <tr id="issuerow30706" rel="30706" data-issuekey="OEP-3796" class="issuerow">
+                                            <td class="nav labels">    PP30</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3796" href="http://jira.acron.com.tr/browse/OEP-3796">OEP-3796</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/statuses/generic.png" width="16" height="16" alt="In Progress" title="In Progress - This issue is being actively worked on at the moment by the assignee."> In Progress
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Üretim Siparişi Ek alanlar
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3863                        </td>
+                    </tr>
+                <tr id="issuerow30705" rel="30705" data-issuekey="OEP-3795" class="issuerow">
+                                            <td class="nav labels">    PP27</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3795" href="http://jira.acron.com.tr/browse/OEP-3795">OEP-3795</a>
+</td>
+                                            <td class="nav assignee">            Uğur Özyürek
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="Done" title="Done"> Done
+</td>
+                                            <td class="nav priority">   Major
+</td>
+                                            <td class="nav resolutiondate"> 20/Eyl/14 5:31 PM </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Desen Hesaplama Programları
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3840                        </td>
+                    </tr>
+                <tr id="issuerow30704" rel="30704" data-issuekey="OEP-3794" class="issuerow">
+                                            <td class="nav labels">    PP24</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3794" href="http://jira.acron.com.tr/browse/OEP-3794">OEP-3794</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="Done" title="Done"> Done
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> 12/Eyl/14 5:35 PM </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Dokuma el terminali uygulaması - personel giriş
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3842                        </td>
+                    </tr>
+                <tr id="issuerow30703" rel="30703" data-issuekey="OEP-3793" class="issuerow">
+                                            <td class="nav labels">    PP22</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3793" href="http://jira.acron.com.tr/browse/OEP-3793">OEP-3793</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="Done" title="Done"> Done
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> 12/Eyl/14 5:35 PM </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Dokuma el terminali uygulaması - atkı sayısı ile üretim girişi
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3841                        </td>
+                    </tr>
+                <tr id="issuerow30700" rel="30700" data-issuekey="OEP-3790" class="issuerow">
+                                            <td class="nav labels">    PP05</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3790" href="http://jira.acron.com.tr/browse/OEP-3790">OEP-3790</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Major
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      İnegöl, Boya baskı işlem takip formu
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3844                        </td>
+                    </tr>
+                <tr id="issuerow30636" rel="30636" data-issuekey="OEP-3726" class="issuerow">
+                                            <td class="nav labels">    FI34</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3726" href="http://jira.acron.com.tr/browse/OEP-3726">OEP-3726</a>
+</td>
+                                            <td class="nav assignee">            İsmail Yiğit
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Hediye Çeki Takip Programı
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3727                        </td>
+                    </tr>
+                <tr id="issuerow30626" rel="30626" data-issuekey="OEP-3716" class="issuerow">
+                                            <td class="nav labels">    FI36</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3716" href="http://jira.acron.com.tr/browse/OEP-3716">OEP-3716</a>
+</td>
+                                            <td class="nav assignee">            Can Güney
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Major
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      FI &amp; HR Ana Veri Entegrasyonu
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3717                        </td>
+                    </tr>
+                <tr id="issuerow30624" rel="30624" data-issuekey="OEP-3714" class="issuerow">
+                                            <td class="nav labels">    FI27</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3714" href="http://jira.acron.com.tr/browse/OEP-3714">OEP-3714</a>
+</td>
+                                            <td class="nav assignee">            Can Güney
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/statuses/trash.png" width="16" height="16" alt="Canceled" title="Canceled - Canceled"> Canceled
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      EMOR-SAP Entegrasyonu(OTEL)
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3715                        </td>
+                    </tr>
+                <tr id="issuerow30622" rel="30622" data-issuekey="OEP-3712" class="issuerow">
+                                            <td class="nav labels">    FI40</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3712" href="http://jira.acron.com.tr/browse/OEP-3712">OEP-3712</a>
+</td>
+                                            <td class="nav assignee">            Can Güney
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Günlük nakit akım raporlarının OED ve ORD sistemlerinden merge edilerek BW&#39;ya gönderilmesi ve buradan raporlanmas
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3713                        </td>
+                    </tr>
+                <tr id="issuerow30620" rel="30620" data-issuekey="OEP-3710" class="issuerow">
+                                            <td class="nav labels">    FI37</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3710" href="http://jira.acron.com.tr/browse/OEP-3710">OEP-3710</a>
+</td>
+                                            <td class="nav assignee">            Hafize Tekbaş
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/statuses/generic.png" width="16" height="16" alt="In Progress" title="In Progress - This issue is being actively worked on at the moment by the assignee."> In Progress
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      AVM de Her satıcı muhasebe belgesi için, satıcı kalemlerinde eğer malzeme var ise yani SAS varsa veya ciro/ iskonto ilişkili ise yani pa segmenti olumuşsa malzeme grubundan nakit yönetimi objesi olan planlama grubunun türetilmesi...Bu exit nakit yönetimi + p&amp;g ve lever gibi satıcılarla mutabakatta kullanılacak...
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3711                        </td>
+                    </tr>
+                <tr id="issuerow30618" rel="30618" data-issuekey="OEP-3708" class="issuerow">
+                                            <td class="nav labels">    FI41</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3708" href="http://jira.acron.com.tr/browse/OEP-3708">OEP-3708</a>
+</td>
+                                            <td class="nav assignee">            Can Güney
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Tebliğ 431 Elektronik Kayıt
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3709                        </td>
+                    </tr>
+                <tr id="issuerow30616" rel="30616" data-issuekey="OEP-3706" class="issuerow">
+                                            <td class="nav labels">    FI38</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3706" href="http://jira.acron.com.tr/browse/OEP-3706">OEP-3706</a>
+</td>
+                                            <td class="nav assignee">            Can Güney
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      E-Fatura gönderimi
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3707                        </td>
+                    </tr>
+                <tr id="issuerow30614" rel="30614" data-issuekey="OEP-3704" class="issuerow">
+                                            <td class="nav labels">    FI35</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3704" href="http://jira.acron.com.tr/browse/OEP-3704">OEP-3704</a>
+</td>
+                                            <td class="nav assignee">            Can Güney
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Major
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Hareketli Orjinal Bakiyeli mizan(Müşteri&amp;Satıcı&amp;Ana Hesap) oluşturulması raporu (printable )
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3705                        </td>
+                    </tr>
+                <tr id="issuerow30612" rel="30612" data-issuekey="OEP-3702" class="issuerow">
+                                            <td class="nav labels">    FI39</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3702" href="http://jira.acron.com.tr/browse/OEP-3702">OEP-3702</a>
+</td>
+                                            <td class="nav assignee">            Can Güney
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      E-Defter geliştirmesi
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3703                        </td>
+                    </tr>
+                <tr id="issuerow30610" rel="30610" data-issuekey="OEP-3700" class="issuerow">
+                                            <td class="nav labels">    FI33</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3700" href="http://jira.acron.com.tr/browse/OEP-3700">OEP-3700</a>
+</td>
+                                            <td class="nav assignee">            Can Güney
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="Done" title="Done"> Done
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> 19/Eyl/14 6:27 PM </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Ters kayıt işlemlerinde onay için workflow sürecinin oluşturulması
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3701                        </td>
+                    </tr>
+                <tr id="issuerow29901" rel="29901" data-issuekey="OEP-3385" class="issuerow">
+                                            <td class="nav labels">    PP69</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3385" href="http://jira.acron.com.tr/browse/OEP-3385">OEP-3385</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/statuses/generic.png" width="16" height="16" alt="In Progress" title="In Progress - This issue is being actively worked on at the moment by the assignee."> In Progress
+</td>
+                                            <td class="nav priority">   Major
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Basılmış etiketin yeniden bastırılması için gerekli programdır.
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3503                        </td>
+                    </tr>
+                <tr id="issuerow29900" rel="29900" data-issuekey="OEP-3384" class="issuerow">
+                                            <td class="nav labels">    PP68</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3384" href="http://jira.acron.com.tr/browse/OEP-3384">OEP-3384</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Barkod ile üretim siparişi için tüketim geliştirmesi
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3502                        </td>
+                    </tr>
+                <tr id="issuerow29899" rel="29899" data-issuekey="OEP-3383" class="issuerow">
+                                            <td class="nav labels">    PP67</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3383" href="http://jira.acron.com.tr/browse/OEP-3383">OEP-3383</a>
+</td>
+                                            <td class="nav assignee">            Nuri Dağıstanlı
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/statuses/trash.png" width="16" height="16" alt="Canceled" title="Canceled - Canceled"> Canceled
+</td>
+                                            <td class="nav priority">   Major
+</td>
+                                            <td class="nav resolutiondate"> 22/Ağu/14 3:43 PM </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Planlı birincil ihtiyaçların excelde hazırlanıp sap&#39;ye aktarım programı
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3501                        </td>
+                    </tr>
+                <tr id="issuerow29898" rel="29898" data-issuekey="OEP-3382" class="issuerow">
+                                            <td class="nav labels">    PP47</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3382" href="http://jira.acron.com.tr/browse/OEP-3382">OEP-3382</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Major
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Bornoz Sipariş Formu
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3500                        </td>
+                    </tr>
+                <tr id="issuerow29897" rel="29897" data-issuekey="OEP-3381" class="issuerow">
+                                            <td class="nav labels">    PP46</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3381" href="http://jira.acron.com.tr/browse/OEP-3381">OEP-3381</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Major
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Havlu Sipariş Formu
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3499                        </td>
+                    </tr>
+                <tr id="issuerow29896" rel="29896" data-issuekey="OEP-3380" class="issuerow">
+                                            <td class="nav labels">    PP43</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3380" href="http://jira.acron.com.tr/browse/OEP-3380">OEP-3380</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Minor
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Tezgah Program Kartı
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3498                        </td>
+                    </tr>
+                <tr id="issuerow29895" rel="29895" data-issuekey="OEP-3379" class="issuerow">
+                                            <td class="nav labels">    PP41</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3379" href="http://jira.acron.com.tr/browse/OEP-3379">OEP-3379</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      İş Emri Kartı
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3497                        </td>
+                    </tr>
+                <tr id="issuerow29891" rel="29891" data-issuekey="OEP-3375" class="issuerow">
+                                            <td class="nav labels">    PP28</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3375" href="http://jira.acron.com.tr/browse/OEP-3375">OEP-3375</a>
+</td>
+                                            <td class="nav assignee">            Nuri Dağıstanlı
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/statuses/trash.png" width="16" height="16" alt="Canceled" title="Canceled - Canceled"> Canceled
+</td>
+                                            <td class="nav priority">   Major
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Toplu MİP Raporlama Ekranı (Senaryo Bazında)
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3493                        </td>
+                    </tr>
+                <tr id="issuerow29890" rel="29890" data-issuekey="OEP-3374" class="issuerow">
+                                            <td class="nav labels">    PP26</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3374" href="http://jira.acron.com.tr/browse/OEP-3374">OEP-3374</a>
+</td>
+                                            <td class="nav assignee">            Uğur Özyürek
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/statuses/generic.png" width="16" height="16" alt="Customer Approval" title="Customer Approval - Customer Approval"> Customer Approval
+</td>
+                                            <td class="nav priority">   Major
+</td>
+                                            <td class="nav resolutiondate"> 03/Eyl/14 3:36 PM </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Çözgü ürün ağacı hesaplama programı
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3492                        </td>
+                    </tr>
+                <tr id="issuerow29889" rel="29889" data-issuekey="OEP-3373" class="issuerow">
+                                            <td class="nav labels">    PP20</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3373" href="http://jira.acron.com.tr/browse/OEP-3373">OEP-3373</a>
+</td>
+                                            <td class="nav assignee">            Erkan Akbaba
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/statuses/generic.png" width="16" height="16" alt="In Progress" title="In Progress - This issue is being actively worked on at the moment by the assignee."> In Progress
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Seri Çözgü iş emri formatı
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3491                        </td>
+                    </tr>
+                <tr id="issuerow29887" rel="29887" data-issuekey="OEP-3371" class="issuerow">
+                                            <td class="nav labels">    PP17</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3371" href="http://jira.acron.com.tr/browse/OEP-3371">OEP-3371</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      El terminali ile çözgü duruş girişi ve çözgü partisini dokuma üretim siparişine tüketim ve üretimden iade alınması.
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3489                        </td>
+                    </tr>
+                <tr id="issuerow29886" rel="29886" data-issuekey="OEP-3370" class="issuerow">
+                                            <td class="nav labels">    PP16</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3370" href="http://jira.acron.com.tr/browse/OEP-3370">OEP-3370</a>
+</td>
+                                            <td class="nav assignee">            Erkan Akbaba
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/statuses/generic.png" width="16" height="16" alt="In Progress" title="In Progress - This issue is being actively worked on at the moment by the assignee."> In Progress
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Konik çözgü iş emri çıktısı
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3488                        </td>
+                    </tr>
+                <tr id="issuerow29885" rel="29885" data-issuekey="OEP-3369" class="issuerow">
+                                            <td class="nav labels">    PP15</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3369" href="http://jira.acron.com.tr/browse/OEP-3369">OEP-3369</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="Done" title="Done"> Done
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> 09/Eyl/14 12:17 AM </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Kumaş Boyama, reçete çıktısı PP14 &#39;in çıktısıdır.
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3487                        </td>
+                    </tr>
+                <tr id="issuerow29884" rel="29884" data-issuekey="OEP-3368" class="issuerow">
+                                            <td class="nav labels">    PP14</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3368" href="http://jira.acron.com.tr/browse/OEP-3368">OEP-3368</a>
+</td>
+                                            <td class="nav assignee">            Sinan Ögeyik
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="Done" title="Done"> Done
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> 09/Eyl/14 12:20 AM </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Kumaş Boyama, kumaş miktarı, boyama hacmi, iş emri no gibi bilgiler elle girilerek,reçete alma ekranı
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3486                        </td>
+                    </tr>
+                <tr id="issuerow29880" rel="29880" data-issuekey="OEP-3364" class="issuerow">
+                                            <td class="nav labels">    PP08</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3364" href="http://jira.acron.com.tr/browse/OEP-3364">OEP-3364</a>
+</td>
+                                            <td class="nav assignee">            Uğur Özyürek
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/statuses/generic.png" width="16" height="16" alt="Customer Approval" title="Customer Approval - Customer Approval"> Customer Approval
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> 21/Ağu/14 9:00 PM </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      İnegöl boya baskı üretim bilgileri, PDT cihaz entegrasyonu
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3482                        </td>
+                    </tr>
+                <tr id="issuerow29879" rel="29879" data-issuekey="OEP-3363" class="issuerow">
+                                            <td class="nav labels">    PP04</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3363" href="http://jira.acron.com.tr/browse/OEP-3363">OEP-3363</a>
+</td>
+                                            <td class="nav assignee">            Uğur Özyürek
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/statuses/generic.png" width="16" height="16" alt="Customer Approval" title="Customer Approval - Customer Approval"> Customer Approval
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      İnegöl mamul kalite kontrol (MKK) , PDT &quot;metre&quot; ürün giriş entegrasyonu
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3481                        </td>
+                    </tr>
+                <tr id="issuerow29876" rel="29876" data-issuekey="OEP-3360" class="issuerow">
+                                            <td class="nav labels">    QM26</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3360" href="http://jira.acron.com.tr/browse/OEP-3360">OEP-3360</a>
+</td>
+                                            <td class="nav assignee">            Seda Sendenel
+    </td>
+                                            <td class="nav components">                        SAP QM            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      İnegöl BB&#39;da kullanılan;<br/>
+Özel kallie kontrol ve metre farkı sonuç raporu
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3478                        </td>
+                    </tr>
+                <tr id="issuerow29875" rel="29875" data-issuekey="OEP-3359" class="issuerow">
+                                            <td class="nav labels">    QM24</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3359" href="http://jira.acron.com.tr/browse/OEP-3359">OEP-3359</a>
+</td>
+                                            <td class="nav assignee">            Seda Sendenel
+    </td>
+                                            <td class="nav components">                        SAP QM            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      İnegöl BB&#39;de kullanılan;<br/>
+Fason mamul kalite kontrol raporu
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3477                        </td>
+                    </tr>
+                <tr id="issuerow29874" rel="29874" data-issuekey="OEP-3358" class="issuerow">
+                                            <td class="nav labels">    QM23</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3358" href="http://jira.acron.com.tr/browse/OEP-3358">OEP-3358</a>
+</td>
+                                            <td class="nav assignee">            Seda Sendenel
+    </td>
+                                            <td class="nav components">                        SAP QM            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      İnegöl BB&#39;de kullanılan;<br/>
+Hambez sipariş kapama raporu
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3476                        </td>
+                    </tr>
+                <tr id="issuerow29873" rel="29873" data-issuekey="OEP-3357" class="issuerow">
+                                            <td class="nav labels">    QM22</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3357" href="http://jira.acron.com.tr/browse/OEP-3357">OEP-3357</a>
+</td>
+                                            <td class="nav assignee">            Seda Sendenel
+    </td>
+                                            <td class="nav components">                        SAP QM            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      İnegöl BB&#39;de kullanılan;<br/>
+Mamul kalite kontrol raporu<br/>
+havlu kalite kontrol raporu
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3475                        </td>
+                    </tr>
+                <tr id="issuerow29872" rel="29872" data-issuekey="OEP-3356" class="issuerow">
+                                            <td class="nav labels">    QM21</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3356" href="http://jira.acron.com.tr/browse/OEP-3356">OEP-3356</a>
+</td>
+                                            <td class="nav assignee">            Seda Sendenel
+    </td>
+                                            <td class="nav components">                        SAP QM            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      İnegöl BB&#39;de kullanılan;<br/>
+ham kalite kontrol raporu<br/>
+havlu kalite kontrol raporu
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3474                        </td>
+                    </tr>
+                <tr id="issuerow29871" rel="29871" data-issuekey="OEP-3355" class="issuerow">
+                                            <td class="nav labels">    QM20</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3355" href="http://jira.acron.com.tr/browse/OEP-3355">OEP-3355</a>
+</td>
+                                            <td class="nav assignee">            Seda Sendenel
+    </td>
+                                            <td class="nav components">                        SAP QM            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Major
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Kalite kontrol sonuçlarının pdf olarak alınması
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3473                        </td>
+                    </tr>
+                <tr id="issuerow29870" rel="29870" data-issuekey="OEP-3354" class="issuerow">
+                                            <td class="nav labels">    QM19</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3354" href="http://jira.acron.com.tr/browse/OEP-3354">OEP-3354</a>
+</td>
+                                            <td class="nav assignee">            Naz Alyüz
+    </td>
+                                            <td class="nav components">                        SAP QM            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/statuses/generic.png" width="16" height="16" alt="In Progress" title="In Progress - This issue is being actively worked on at the moment by the assignee."> In Progress
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Dokuma kalite kontrol atkı sakat raporu
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3472                        </td>
+                    </tr>
+                <tr id="issuerow29869" rel="29869" data-issuekey="OEP-3353" class="issuerow">
+                                            <td class="nav labels">    QM18</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3353" href="http://jira.acron.com.tr/browse/OEP-3353">OEP-3353</a>
+</td>
+                                            <td class="nav assignee">            Seda Sendenel
+    </td>
+                                            <td class="nav components">                        SAP QM            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/statuses/generic.png" width="16" height="16" alt="In Progress" title="In Progress - This issue is being actively worked on at the moment by the assignee."> In Progress
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      İnegöl BB mamul kalite kontrol sipariş kalite yüzdesine göre kullanım karar kontrolü
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3471                        </td>
+                    </tr>
+                <tr id="issuerow29868" rel="29868" data-issuekey="OEP-3352" class="issuerow">
+                                            <td class="nav labels">    QM17</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3352" href="http://jira.acron.com.tr/browse/OEP-3352">OEP-3352</a>
+</td>
+                                            <td class="nav assignee">            Seda Sendenel
+    </td>
+                                            <td class="nav components">                        SAP QM            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="Done" title="Done"> Done
+</td>
+                                            <td class="nav priority">   Major
+</td>
+                                            <td class="nav resolutiondate"> 22/Ağu/14 5:49 AM </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      BB Konfeksiyon kullanım kararı sonraki işlemi
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3470                        </td>
+                    </tr>
+                <tr id="issuerow29867" rel="29867" data-issuekey="OEP-3351" class="issuerow">
+                                            <td class="nav labels">    QM14</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3351" href="http://jira.acron.com.tr/browse/OEP-3351">OEP-3351</a>
+</td>
+                                            <td class="nav assignee">            Seda Sendenel
+    </td>
+                                            <td class="nav components">                        SAP QM            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/statuses/generic.png" width="16" height="16" alt="In Progress" title="In Progress - This issue is being actively worked on at the moment by the assignee."> In Progress
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Doruktan SAPye veri aktarımı-Mobil
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3469                        </td>
+                    </tr>
+                <tr id="issuerow29865" rel="29865" data-issuekey="OEP-3349" class="issuerow">
+                                            <td class="nav labels">    QM12</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3349" href="http://jira.acron.com.tr/browse/OEP-3349">OEP-3349</a>
+</td>
+                                            <td class="nav assignee">            Naz Alyüz
+    </td>
+                                            <td class="nav components">                        SAP QM            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Major
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Günlük alınan Boyahane Kalite Kontrol (BKK) onay raporu.
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3467                        </td>
+                    </tr>
+                <tr id="issuerow29864" rel="29864" data-issuekey="OEP-3348" class="issuerow">
+                                            <td class="nav labels">    QM11</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3348" href="http://jira.acron.com.tr/browse/OEP-3348">OEP-3348</a>
+</td>
+                                            <td class="nav assignee">            Seda Sendenel
+    </td>
+                                            <td class="nav components">                        SAP QM            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Vardiya üretim ve operasyon tamamlama raporu
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3466                        </td>
+                    </tr>
+                <tr id="issuerow29863" rel="29863" data-issuekey="OEP-3347" class="issuerow">
+                                            <td class="nav labels">    QM10</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3347" href="http://jira.acron.com.tr/browse/OEP-3347">OEP-3347</a>
+</td>
+                                            <td class="nav assignee">            Naz Alyüz
+    </td>
+                                            <td class="nav components">                        SAP QM            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Gramaj kontrol raporu
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3465                        </td>
+                    </tr>
+                <tr id="issuerow29860" rel="29860" data-issuekey="OEP-3344" class="issuerow">
+                                            <td class="nav labels">    QM07</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3344" href="http://jira.acron.com.tr/browse/OEP-3344">OEP-3344</a>
+</td>
+                                            <td class="nav assignee">            Seda Sendenel
+    </td>
+                                            <td class="nav components">                        SAP QM            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Minor
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Bitmiş ürün müşteri analiz sertifikası
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3462                        </td>
+                    </tr>
+                <tr id="issuerow29857" rel="29857" data-issuekey="OEP-3341" class="issuerow">
+                                            <td class="nav labels">    QM04</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3341" href="http://jira.acron.com.tr/browse/OEP-3341">OEP-3341</a>
+</td>
+                                            <td class="nav assignee">            Seda Sendenel
+    </td>
+                                            <td class="nav components">                        SAP QM            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/statuses/generic.png" width="16" height="16" alt="In Progress" title="In Progress - This issue is being actively worked on at the moment by the assignee."> In Progress
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Genel hata raporu. Varyant bazlı özelleştirilebilecektir.
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3459                        </td>
+                    </tr>
+                <tr id="issuerow29853" rel="29853" data-issuekey="OEP-3337" class="issuerow">
+                                            <td class="nav labels">    FI29</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3337" href="http://jira.acron.com.tr/browse/OEP-3337">OEP-3337</a>
+</td>
+                                            <td class="nav assignee">            Bilge Yazgan
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      E-bank upload
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3455                        </td>
+                    </tr>
+                <tr id="issuerow29851" rel="29851" data-issuekey="OEP-3335" class="issuerow">
+                                            <td class="nav labels">    FI26</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3335" href="http://jira.acron.com.tr/browse/OEP-3335">OEP-3335</a>
+</td>
+                                            <td class="nav assignee">            Bilge Yazgan
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Minor
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      UFRS için Sales cut off (Hasılatın gerçekleştiğianda geirkaydedilmesi, gerçekleşmeyen hasılat için dönem sonlarında ters kayıt yaparak düzeltilmesi)
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3453                        </td>
+                    </tr>
+                <tr id="issuerow29850" rel="29850" data-issuekey="OEP-3334" class="issuerow">
+                                            <td class="nav labels">    FI25</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3334" href="http://jira.acron.com.tr/browse/OEP-3334">OEP-3334</a>
+</td>
+                                            <td class="nav assignee">            Bilge Yazgan
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Minor
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      UFRS için Stok değer düşüklüğü
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3452                        </td>
+                    </tr>
+                <tr id="issuerow29849" rel="29849" data-issuekey="OEP-3333" class="issuerow">
+                                            <td class="nav labels">    FI24</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3333" href="http://jira.acron.com.tr/browse/OEP-3333">OEP-3333</a>
+</td>
+                                            <td class="nav assignee">            Bilge Yazgan
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Minor
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      UFRS için Çalışmayan kısım giderleri programının geliştirilmesi
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3451                        </td>
+                    </tr>
+                <tr id="issuerow29848" rel="29848" data-issuekey="OEP-3332" class="issuerow">
+                                            <td class="nav labels">    FI23</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3332" href="http://jira.acron.com.tr/browse/OEP-3332">OEP-3332</a>
+</td>
+                                            <td class="nav assignee">            Bilge Yazgan
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Minor
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      UFRS için Ertelenmiş Vergi programının geliştirilmesi
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3450                        </td>
+                    </tr>
+                <tr id="issuerow29847" rel="29847" data-issuekey="OEP-3331" class="issuerow">
+                                            <td class="nav labels">    FI22</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3331" href="http://jira.acron.com.tr/browse/OEP-3331">OEP-3331</a>
+</td>
+                                            <td class="nav assignee">            Bilge Yazgan
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Minor
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      UFRS için İzin karşılıkları programının geliştirilmesi
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3449                        </td>
+                    </tr>
+                <tr id="issuerow29846" rel="29846" data-issuekey="OEP-3330" class="issuerow">
+                                            <td class="nav labels">    FI21</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3330" href="http://jira.acron.com.tr/browse/OEP-3330">OEP-3330</a>
+</td>
+                                            <td class="nav assignee">            Bilge Yazgan
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Minor
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      UFRS için Kıdem tazminatı programının geliştirilmesi
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3448                        </td>
+                    </tr>
+                <tr id="issuerow29843" rel="29843" data-issuekey="OEP-3327" class="issuerow">
+                                            <td class="nav labels">    FI18</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3327" href="http://jira.acron.com.tr/browse/OEP-3327">OEP-3327</a>
+</td>
+                                            <td class="nav assignee">            Bilge Yazgan
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Major
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Cari hesap ekstreleri
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3445                        </td>
+                    </tr>
+                <tr id="issuerow29842" rel="29842" data-issuekey="OEP-3326" class="issuerow">
+                                            <td class="nav labels">    FI17</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3326" href="http://jira.acron.com.tr/browse/OEP-3326">OEP-3326</a>
+</td>
+                                            <td class="nav assignee">            Hafize Tekbaş
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Major
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Satıcı ve Müşteri Mutabakat Mektup Formlarının oluşturulması
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3444                        </td>
+                    </tr>
+                <tr id="issuerow29841" rel="29841" data-issuekey="OEP-3325" class="issuerow">
+                                            <td class="nav labels">    FI16</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3325" href="http://jira.acron.com.tr/browse/OEP-3325">OEP-3325</a>
+</td>
+                                            <td class="nav assignee">            Bilge Yazgan
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Major
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Aylık planlanan Nakit akış raporları
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3443                        </td>
+                    </tr>
+                <tr id="issuerow29840" rel="29840" data-issuekey="OEP-3324" class="issuerow">
+                                            <td class="nav labels">    FI15</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3324" href="http://jira.acron.com.tr/browse/OEP-3324">OEP-3324</a>
+</td>
+                                            <td class="nav assignee">            Hafize Tekbaş
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/statuses/generic.png" width="16" height="16" alt="In Progress" title="In Progress - This issue is being actively worked on at the moment by the assignee."> In Progress
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      SPAda kullanılan LAPİS programından SAPye veri (fatura, gelir, tahakkuk, gibi) akışının sağlanması
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3442                        </td>
+                    </tr>
+                <tr id="issuerow29839" rel="29839" data-issuekey="OEP-3323" class="issuerow">
+                                            <td class="nav labels">    FI14</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3323" href="http://jira.acron.com.tr/browse/OEP-3323">OEP-3323</a>
+</td>
+                                            <td class="nav assignee">            Hafize Tekbaş
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/statuses/generic.png" width="16" height="16" alt="In Progress" title="In Progress - This issue is being actively worked on at the moment by the assignee."> In Progress
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Otelde kullanılan MC(Material Control) programının SAPye entegrasyonunun sağlanması
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3441                        </td>
+                    </tr>
+                <tr id="issuerow29838" rel="29838" data-issuekey="OEP-3322" class="issuerow">
+                                            <td class="nav labels">    FI13</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3322" href="http://jira.acron.com.tr/browse/OEP-3322">OEP-3322</a>
+</td>
+                                            <td class="nav assignee">            Bilge Yazgan
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Major
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Gerçekleşen kur farkı faturalarının kesilmesi konusunda kur farkı kaydı atan program tasarlanacaktır.
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3440                        </td>
+                    </tr>
+                <tr id="issuerow29837" rel="29837" data-issuekey="OEP-3321" class="issuerow">
+                                            <td class="nav labels">    FI12</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3321" href="http://jira.acron.com.tr/browse/OEP-3321">OEP-3321</a>
+</td>
+                                            <td class="nav assignee">            Hafize Tekbaş
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Major
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      BA/BS Aktarımı - edevlete upload
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3439                        </td>
+                    </tr>
+                <tr id="issuerow29836" rel="29836" data-issuekey="OEP-3320" class="issuerow">
+                                            <td class="nav labels">    FI11</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3320" href="http://jira.acron.com.tr/browse/OEP-3320">OEP-3320</a>
+</td>
+                                            <td class="nav assignee">            Bilge Yazgan
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Major
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Muhtasar formatı - edevlete upload
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3438                        </td>
+                    </tr>
+                <tr id="issuerow29834" rel="29834" data-issuekey="OEP-3318" class="issuerow">
+                                            <td class="nav labels">    FI08</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3318" href="http://jira.acron.com.tr/browse/OEP-3318">OEP-3318</a>
+</td>
+                                            <td class="nav assignee">            Can Güney
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="Done" title="Done"> Done
+</td>
+                                            <td class="nav priority">   Minor
+</td>
+                                            <td class="nav resolutiondate"> 15/Eyl/14 4:38 PM </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      FI ile ilgili Excel dosyasının sap&#39;ye upload edilmesi içindir.
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3436                        </td>
+                    </tr>
+                <tr id="issuerow29833" rel="29833" data-issuekey="OEP-3317" class="issuerow">
+                                            <td class="nav labels">    FI07</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3317" href="http://jira.acron.com.tr/browse/OEP-3317">OEP-3317</a>
+</td>
+                                            <td class="nav assignee">            Bilge Yazgan
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="To Do" title="To Do"> To Do
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Otomatik ödeme programı için user-exit kullanılarak ödeme tarihleri istenen vade/güne göre revize edilebilecektir.
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3435                        </td>
+                    </tr>
+                <tr id="issuerow29832" rel="29832" data-issuekey="OEP-3316" class="issuerow">
+                                            <td class="nav labels">    FI06</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3316" href="http://jira.acron.com.tr/browse/OEP-3316">OEP-3316</a>
+</td>
+                                            <td class="nav assignee">            Fatih Balaban
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="Done" title="Done"> Done
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> 12/Eyl/14 5:26 PM </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Kredi Kartı Ciroları Banka Ciroları: ZPOSDETAY &amp; ZKREDİSOZ deki veriler toplanarak raporlanacak.
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3434                        </td>
+                    </tr>
+                <tr id="issuerow29831" rel="29831" data-issuekey="OEP-3315" class="issuerow">
+                                            <td class="nav labels">    FI05</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3315" href="http://jira.acron.com.tr/browse/OEP-3315">OEP-3315</a>
+</td>
+                                            <td class="nav assignee">            Fatih Balaban
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/statuses/generic.png" width="16" height="16" alt="In Progress" title="In Progress - This issue is being actively worked on at the moment by the assignee."> In Progress
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Kredi Kartı Ciro Raporu: 10802 Hesabı kayıt tarihi bazında cirolarını ay ay getiren rapor, aynı rapor kar merkezi bazında kırılımlı rapor
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3433                        </td>
+                    </tr>
+                <tr id="issuerow29830" rel="29830" data-issuekey="OEP-3314" class="issuerow">
+                                            <td class="nav labels">    FI04</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3314" href="http://jira.acron.com.tr/browse/OEP-3314">OEP-3314</a>
+</td>
+                                            <td class="nav assignee">            Fatih Balaban
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="Done" title="Done"> Done
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> 08/Eyl/14 4:24 PM </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Vadesi Gelen 10802 Hesapların Banka Hesabına Virmanı - 10802 borcundaki rakamları Valör + kar merkezi + üye iş yeri bazında toplayıp, 102 (şube pos hesaplarına) borç atıp 10802 hesaba denkleştirerek kayıt atılacak.
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3432                        </td>
+                    </tr>
+                <tr id="issuerow29829" rel="29829" data-issuekey="OEP-3313" class="issuerow">
+                                            <td class="nav labels">    FI03</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3313" href="http://jira.acron.com.tr/browse/OEP-3313">OEP-3313</a>
+</td>
+                                            <td class="nav assignee">            Fatih Balaban
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/subtask.gif" width="16" height="16" alt="Done" title="Done"> Done
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> 29/Ağu/14 1:34 AM </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Satış Aktarım Dosyası
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3431                        </td>
+                    </tr>
+                <tr id="issuerow29828" rel="29828" data-issuekey="OEP-3312" class="issuerow">
+                                            <td class="nav labels">    FI02</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3312" href="http://jira.acron.com.tr/browse/OEP-3312">OEP-3312</a>
+</td>
+                                            <td class="nav assignee">            Hafize Tekbaş
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/statuses/generic.png" width="16" height="16" alt="In Progress" title="In Progress - This issue is being actively worked on at the moment by the assignee."> In Progress
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Magaza Gün sonu kasa icmali Otel
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3430                        </td>
+                    </tr>
+                <tr id="issuerow27827" rel="27827" data-issuekey="OEP-3304" class="issuerow">
+                                            <td class="nav labels">    CO03</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3304" href="http://jira.acron.com.tr/browse/OEP-3304">OEP-3304</a>
+</td>
+                                            <td class="nav assignee">            Ebru Kazak
+    </td>
+                                            <td class="nav components">                        SAP CO            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/statuses/generic.png" width="16" height="16" alt="In Progress" title="In Progress - This issue is being actively worked on at the moment by the assignee."> In Progress
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Sistem standardında çoklu malzeme değerlenmiş ürün agacı raporu bulunmadığı için bu rapor geliştirilecek olan bir rapor ile alınabilecektir.
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3305                        </td>
+                    </tr>
+                <tr id="issuerow27819" rel="27819" data-issuekey="OEP-3296" class="issuerow">
+                                            <td class="nav labels">    CO05</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3296" href="http://jira.acron.com.tr/browse/OEP-3296">OEP-3296</a>
+</td>
+                                            <td class="nav assignee">            Uğur Özyürek
+    </td>
+                                            <td class="nav components">                        SAP CO            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/statuses/generic.png" width="16" height="16" alt="Customer Approval" title="Customer Approval - Customer Approval"> Customer Approval
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> 12/Eyl/14 9:41 AM </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Yapılacak olan bir doğrulama geliştirmesi ile masraf yerlerine mazleme sarfları sırasında malzeme segmenti ile sarf hesabı kontrolü yapılacaktır. Uygunsuz bir durumda sistem sarf işleminin yapılmasına engel olacak ve bir hata mesajı ile kullanıcıyı durduracaktır.
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3297                        </td>
+                    </tr>
+                </tbody>
+    </table>
+    <div class="end-of-stable-message"></div>
+            <table border="1" >
+<tr>
+    <td bgcolor="#dddddd" colspan="10"><font size="1">
+        Selim Öndünç tarafından JIRA 6.1#6144-sha1:2e5032834b5e9b089289c97f8425a146c3cf4464 kullanılarak Sat Sep 20 18:30:25 EEST 2014 tarihinde oluşturuldu.
+    </font></td>
+</tr>
+</table>
+
+</body>
+</html>

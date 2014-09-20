@@ -1,0 +1,334 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<title>ACRON PROJECT MANAGEMENT PORTAL</title>
+<style type="text/css">
+table {
+    mso-displayed-decimal-separator:"\,";
+    mso-displayed-thousand-separator:"\.";
+}
+body
+{
+    margin: 0px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color:black;
+}
+
+</style>
+<META HTTP-EQUIV="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8">
+<!-- JRA-7598 - ensure fields (e.g. description) occupy only one cell - even fields containing newlines. -->
+<!--
+Vertical align all cells to the top, in order to align all issue rows of issuetable to the top,
+since Excel does not use or save the css files it is hardcoded here.
+-->
+<style>
+@page
+{
+mso-page-orientation:landscape;
+margin:.25in .25in .5in .25in;
+mso-header-margin:.5in;
+mso-footer-margin:.25in;
+mso-footer-data:"&R&P of &N";
+mso-horizontal-page-align:center;
+mso-vertical-page-align:center;
+}
+
+br
+{
+    mso-data-placement:same-cell;
+}
+
+td
+{
+    vertical-align: top;
+}
+</style>
+
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>general_report</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+<body>
+
+<table border="1">
+    <tr bgcolor="#ffffff" height="29">
+        <td colspan="10">
+            <img src="http://jira.acron.com.tr/jira-logo-scaled.png" width="125" height="29" border="0" alt="ACRON PROJECT MANAGEMENT PORTAL">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="10">
+            <a href="http://jira.acron.com.tr/secure/IssueNavigator.jspa?reset=true&jqlQuery=project+%3D+OEP+AND+issuetype+%3D+Geli%C5%9Ftirme+AND+component+in+%28%22SAP+CO%22%2C+%22SAP+FI%22%2C+%22SAP+PM%22%2C+%22SAP+PP%22%2C+%22SAP+QM%22%29+AND+status+%3D+%22In+Progress%22">ACRON PROJECT MANAGEMENT PORTAL</a>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="10">
+            20/Eyl/14 6:15 PM'de 9 talep gösteriliyor.
+        </td>
+    </tr>
+</table>
+
+
+
+
+                                        <table id="issuetable"  border="1" cellpadding="3" cellspacing="1" width="100%">
+                        <thead>
+        <tr class="rowHeader">
+            
+                                                            <th class="colHeaderLink headerrow-labels">
+                            Labels
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-issuekey">
+                            Anahtar
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-assignee">
+                            Atanan Kişi
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-components">
+                            Bileşen/ler
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-status">
+                            Durum
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-priority">
+                            Öncelik
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-resolutiondate">
+                            Resolved
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-timespent">
+                            Geçen Süre
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-description">
+                            Tanım
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-issuelinks">
+                            Linked Issues
+                                                    </th>
+                                                                    </tr>
+    </thead>
+    <tbody>
+                                    <tr id="issuerow30933" rel="30933" data-issuekey="OEP-3864" class="issuerow">
+                                            <td class="nav labels">    PP12</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3864" href="http://jira.acron.com.tr/browse/OEP-3864">OEP-3864</a>
+</td>
+                                            <td class="nav assignee">            Neşet Yüzbaşı
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/statuses/generic.png" width="16" height="16" alt="In Progress" title="In Progress - This issue is being actively worked on at the moment by the assignee."> In Progress
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent">28800</td>
+                                            <td class="nav description">      Kumaş boyama, üretim safhaları arası stok raporu
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3791                        </td>
+                    </tr>
+                <tr id="issuerow29998" rel="29998" data-issuekey="OEP-3482" class="issuerow">
+                                            <td class="nav labels">    PP08</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3482" href="http://jira.acron.com.tr/browse/OEP-3482">OEP-3482</a>
+</td>
+                                            <td class="nav assignee">            Selim Öndünç
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/statuses/generic.png" width="16" height="16" alt="In Progress" title="In Progress - This issue is being actively worked on at the moment by the assignee."> In Progress
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent">10800</td>
+                                            <td class="nav description">      İnegöl boya baskı üretim bilgileri, PDT cihaz entegrasyonu
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3364                        </td>
+                    </tr>
+                <tr id="issuerow29995" rel="29995" data-issuekey="OEP-3479" class="issuerow">
+                                            <td class="nav labels">    PP02</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3479" href="http://jira.acron.com.tr/browse/OEP-3479">OEP-3479</a>
+</td>
+                                            <td class="nav assignee">            Uğur Özyürek
+    </td>
+                                            <td class="nav components">                        SAP PP            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/statuses/generic.png" width="16" height="16" alt="In Progress" title="In Progress - This issue is being actively worked on at the moment by the assignee."> In Progress
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Etiket 1: Boyanmış Kumaş
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3361                        </td>
+                    </tr>
+                <tr id="issuerow29986" rel="29986" data-issuekey="OEP-3470" class="issuerow">
+                                            <td class="nav labels">    QM17</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3470" href="http://jira.acron.com.tr/browse/OEP-3470">OEP-3470</a>
+</td>
+                                            <td class="nav assignee">            Selim Öndünç
+    </td>
+                                            <td class="nav components">                        SAP QM            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/statuses/generic.png" width="16" height="16" alt="In Progress" title="In Progress - This issue is being actively worked on at the moment by the assignee."> In Progress
+</td>
+                                            <td class="nav priority">   Major
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent">7200</td>
+                                            <td class="nav description">      BB Konfeksiyon kullanım kararı sonraki işlemi
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3352                        </td>
+                    </tr>
+                <tr id="issuerow29947" rel="29947" data-issuekey="OEP-3431" class="issuerow">
+                                            <td class="nav labels">    FI03</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3431" href="http://jira.acron.com.tr/browse/OEP-3431">OEP-3431</a>
+</td>
+                                            <td class="nav assignee">            Selim Öndünç
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/statuses/generic.png" width="16" height="16" alt="In Progress" title="In Progress - This issue is being actively worked on at the moment by the assignee."> In Progress
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent">79200</td>
+                                            <td class="nav description">      Satış Aktarım Dosyası
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3313                        </td>
+                    </tr>
+                <tr id="issuerow29945" rel="29945" data-issuekey="OEP-3429" class="issuerow">
+                                            <td class="nav labels">    FI01</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3429" href="http://jira.acron.com.tr/browse/OEP-3429">OEP-3429</a>
+</td>
+                                            <td class="nav assignee">            Hami Kılıç
+    </td>
+                                            <td class="nav components">                        SAP FI            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/statuses/generic.png" width="16" height="16" alt="In Progress" title="In Progress - This issue is being actively worked on at the moment by the assignee."> In Progress
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent">187200</td>
+                                            <td class="nav description">      Magaza Gün sonu kasa icmali  AVM
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3311                        </td>
+                    </tr>
+                <tr id="issuerow27826" rel="27826" data-issuekey="OEP-3303" class="issuerow">
+                                            <td class="nav labels">    CO01</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3303" href="http://jira.acron.com.tr/browse/OEP-3303">OEP-3303</a>
+</td>
+                                            <td class="nav assignee">            İbrahim Çelik
+    </td>
+                                            <td class="nav components">                        SAP CO            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/statuses/generic.png" width="16" height="16" alt="In Progress" title="In Progress - This issue is being actively worked on at the moment by the assignee."> In Progress
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent">43200</td>
+                                            <td class="nav description">      Malzeme masraf öğesi raporu sistem standardı raporlarından tek bir malzeme için alınabilmektedir. Çok masraf öğesi raporu için geliştirme raporu kullanılacaktır.
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3302                        </td>
+                    </tr>
+                <tr id="issuerow27824" rel="27824" data-issuekey="OEP-3301" class="issuerow">
+                                            <td class="nav labels">    CO08</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-3301" href="http://jira.acron.com.tr/browse/OEP-3301">OEP-3301</a>
+</td>
+                                            <td class="nav assignee">            Uğur Özyürek
+    </td>
+                                            <td class="nav components">                        SAP CO            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/statuses/generic.png" width="16" height="16" alt="In Progress" title="In Progress - This issue is being actively worked on at the moment by the assignee."> In Progress
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Dönem standart dönem sonu kapanış işlemleri ile 710 hesaplara sarf edilen tutarlar dönem sonu hesaplanan fiili değerler ile güncellenmemektedir. Güncelleme işlemi hazırlana 710 fiili değerini gösteren bir geliştirme raporu yardımıyla kullanıcılar tarafından manuel olarak kaydedilecektir.
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3300                        </td>
+                    </tr>
+                <tr id="issuerow22830" rel="22830" data-issuekey="OEP-4" class="issuerow">
+                                            <td class="nav labels">    QM03</td>
+                                            <td class="nav issuekey">
+
+    <a class="issue-link" data-issue-key="OEP-4" href="http://jira.acron.com.tr/browse/OEP-4">OEP-4</a>
+</td>
+                                            <td class="nav assignee">            Uğur Özyürek
+    </td>
+                                            <td class="nav components">                        SAP QM            </td>
+                                            <td class="nav status">    
+
+<img src="http://jira.acron.com.tr/images/icons/statuses/generic.png" width="16" height="16" alt="In Progress" title="In Progress - This issue is being actively worked on at the moment by the assignee."> In Progress
+</td>
+                                            <td class="nav priority">   Critical
+</td>
+                                            <td class="nav resolutiondate"> &nbsp; </td>
+                                            <td class="nav timespent"></td>
+                                            <td class="nav description">      Analiz raporu geliştirmesi
+  </td>
+                                            <td class="nav issuelinks">                                        OEP-3                        </td>
+                    </tr>
+                </tbody>
+    </table>
+    <div class="end-of-stable-message"></div>
+            <table border="1" >
+<tr>
+    <td bgcolor="#dddddd" colspan="10"><font size="1">
+        Selim Öndünç tarafından JIRA 6.1#6144-sha1:2e5032834b5e9b089289c97f8425a146c3cf4464 kullanılarak Sat Sep 20 18:15:06 EEST 2014 tarihinde oluşturuldu.
+    </font></td>
+</tr>
+</table>
+
+</body>
+</html>
